@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="Scripts/jquery-3.2.1.min.js"></script>
+    <script src="Scripts/p5.min.js"></script>
+    <script src="Scripts/loadData.js"></script>
+    <script src="Scripts/main.js"></script>
+    <script src="Scripts/sketch.js"></script>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td><label>Usurio GIT</label></td>
+        <td><input type="text" name="gitUser" value="VisualComputing"/></td>
+        <td><label>Nombre Repositorio</label></td>
+        <td><input type="text" name="gitRepo" value="Shaders" /></td>
+        <td><label>Branch</label></td>
+        <td><input type="text" name="gitBranch" value="gh-pages" /></td>
+        <td><button id="beginDrawBtn">Iniciar Grafico</button></td>
+      </tr>
+      <tr>
+        <td colspan="7">
+          <div id="canvasDiv">
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
